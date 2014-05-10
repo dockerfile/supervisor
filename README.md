@@ -21,3 +21,7 @@ This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/)
 ### Usage
 
     docker run -it --rm dockerfile/supervisor
+
+#### Run with custom config files
+
+    docker run -d -v <config-dir>:/etc/supervisor/conf.d dockerfile/supervisor
