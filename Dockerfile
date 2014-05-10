@@ -15,7 +15,7 @@ RUN sed -i 's/^\(\[supervisord\]\)$/\1\nnodaemon=true/' /etc/supervisor/supervis
 VOLUME ["/data", "/etc/supervisor/conf.d"]
 
 # Define working directory.
-WORKDIR /data
+WORKDIR /etc/supervisor/conf.d
 
 # Define default command.
 CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
