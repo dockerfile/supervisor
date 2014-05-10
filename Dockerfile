@@ -18,4 +18,4 @@ VOLUME ["/data", "/etc/supervisor/conf.d"]
 WORKDIR /data
 
 # Define default command.
-CMD ["supervisord"]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
