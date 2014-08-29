@@ -1,7 +1,7 @@
 ## Supervisor Dockerfile
 
 
-This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/supervisor/) published to the public [Docker Registry](https://index.docker.io/).
+This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/supervisor/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Dependencies
@@ -11,9 +11,9 @@ This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/)
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
+1. Install [Docker](https://www.docker.com/).
 
-2. Download [trusted build](https://index.docker.io/u/dockerfile/supervisor/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/supervisor`
+2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/supervisor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/supervisor`
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/supervisor" github.com/dockerfile/supervisor`)
 
